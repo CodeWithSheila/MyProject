@@ -38,10 +38,69 @@
     width:100%;
     position:absolute;
 }
+
+.home {
+  margin: 0 auto;
+  /* margin-top: 9rem; */
+  width: 100%;
+  /* border-radius: 1rem; */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(images/elmina.jpg) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(images/elmina.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 80vh;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.home .content {
+  text-align: center;
+}
+
+.home .content span {
+  font-weight: bolder;
+  color: transparent;
+  -webkit-text-stroke: 0.1rem #fff;
+  font-size: 4vw;
+  display: block;
+}
+
+.home .content h3 {
+  font-size: 6vw;
+  color: #fff;
+}
+
+.home .content p {
+  max-width: 60rem;
+  margin: 1rem auto;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
 </style>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span data-aos="fade-up" data-aos-delay="150">Welcome To</span>
+        <h3 data-aos="fade-up" data-aos-delay="300">Elmina Castle</h3>
+        <p data-aos="fade-up" data-aos-delay="450">"one of the most important stops on the route of the Atlantic slave trade</p>
+        <!-- <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn">book now</a> -->
+    </div>
+
+</section>
 
 <div class="how-section1">
                     <div class="row">
