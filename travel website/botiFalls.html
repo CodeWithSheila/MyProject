@@ -86,6 +86,69 @@
   color: #aaa;
   line-height: 2;
 }
+  .destination .box-container {
+    display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  
+}
+
+.destination .box-container .box {
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #222;
+}
+
+.destination .box-container .box:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.destination .box-container .box .image {
+  height: 20rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.destination .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.destination .box-container .box .content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.destination .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.destination .box-container .box .content p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+
+.destination .box-container .box .content a {
+  font-size: 1.7rem;
+  color: #29d9d5;
+}
+
+.destination .box-container .box .content a:hover i {
+  padding-left: 1rem;
+}
+
+.destination .box-container .box .content a i {
+  padding-right: .5rem;
+
+}
 </style>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -138,7 +201,85 @@
                                 <img src="images/boti3.jpg" style="width: 100%;" alt=""/>
                             </div>
                    
-                                       
+                            <section class="destination" id="destination">
+                                <div class="heading">
+                                    <span></span>
+                                    <h3>Choose your accommodations</h3>
+                                </div>
+            
+                                <div class="box-container">
+                            
+                                    <div class="box" data-aos="fade-up" data-aos-delay="150">
+                                        <div class="image">
+                                            <img src="images/bhk.jpeg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Bedtime Hotel</h3>
+                                            <p>9.0 miles from Boti Falls</p>
+                                            <a href="elmina.html">read more <i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="box" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="image">
+                                            <img src="images/fh.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3> Hotel Freden </h3>
+                                            <p>7.4 miles from Boti Falls</p>
+                                            <a href="capeCoast.html">read more <i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="box" data-aos="fade-up" data-aos-delay="450">
+                                        <div class="image">
+                                            <img src="images/rsh.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Royal Senchi Hotel and Resort</h3>
+                                            <p>21.0 miles from Boti Falls</p>
+                                            <a href="umbrellaRock.html">read more <i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="box" data-aos="fade-up" data-aos-delay="600">
+                                        <div class="image">
+                                            <img src="images/edh.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Embassy and Diplomats Hotel</h3>
+                                            <p>7.3 miles from Boti Falls</p>
+                                            <a href="botiFalls.html">read more <i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="box" data-aos="fade-up" data-aos-delay="750">
+                                        <div class="image">
+                                            <img src="images/ths.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Tonyx Hotel Suites & Spa</h3>
+                                            <p>6.2 miles from Boti Falls</p>
+                                            <a href="kakum.html">read more <i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="box" data-aos="fade-up" data-aos-delay="900">
+                                        <div class="image">
+                                            <img src="images/cvh.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Capital View Hotel</h3> 
+                                            <p>8.0 miles from Boti Falls</p>
+                                            <a href="molePark.html">read more <i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                            
+                            
+                                </div>
+                            
+                            </section>
+        
 
                 </div>
                 <div class="container-fluid">
